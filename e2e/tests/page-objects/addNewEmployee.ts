@@ -6,7 +6,7 @@ function addingNewEmployee(){
         loginBtn:page.getByRole('button', { name: 'Intra in cont' }),
         menuButton:page.getByLabel('Menu'),
         employeeLabel:page.getByText('Angajați', { exact: true }),
-        expandFieldsNewEmployee: page.getByRole('main').locator('div').filter({ hasText: 'peopleCompanie > Angajatikeyboard_arrow_downAdauga un nou angajat' }).getByLabel('Expand'),
+        expandFieldsNewEmployee: page.getByRole('main').locator('div').filter({ hasText: 'peopleCompanie > Angajatiarrow_back Inapoi keyboard_arrow_downAdauga un nou' }).getByLabel('Expand'),
         employeeFirstName:page.getByLabel('Prenume'),
         employeeSecondName:page.getByLabel('Nume', { exact: true }),
         employeeUserName:page.getByLabel('Username'),

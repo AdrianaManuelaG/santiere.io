@@ -5,7 +5,7 @@ function addNewMaterialSelectors(){
         notArobot:page.getByLabel('Are u a robot ?'),
         loginBtn:page.getByRole('button', { name: 'Intra in cont' }),
         menuButton:page.getByLabel('Menu'),
-        materialsBtn:page.getByRole('complementary').getByText('Materiale'),
+        materialsBtn:page.getByText('handymanMaterialeLa nivelul'),
         addMaterial:page.getByRole('listitem').getByLabel('Expand'),
         materialName:page.getByLabel('Nume material'),
         unit:page.getByLabel('Unitate de măsură'),
